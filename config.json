@@ -1,0 +1,348 @@
+{
+  "url": "https://www.wjx.cn/vm/OaRP2BF.aspx",
+  "target_num": 100,
+  "min_duration": 1,
+  "max_duration": 20,
+  "weixin_ratio": 0.5,
+  "min_delay": 0.5,
+  "max_delay": 1.5,
+  "submit_delay": 0.8,
+  "page_load_delay": 1.5,
+  "per_question_delay": [
+    0.3,
+    0.8
+  ],
+  "min_submit_gap": 5,
+  "max_submit_gap": 15,
+  "batch_size": 3,
+  "batch_pause": 15,
+  "per_page_delay": [
+    2.0,
+    6.0
+  ],
+  "enable_smart_gap": true,
+  "headless": false,
+  "parse_headless": true,
+  "num_threads": 8,
+  "page_load_timeout": 20,
+  "element_timeout": 10,
+  "use_ip": false,
+  "ip_api": "https://service.ipzan.com/core-extract?num=1&minute=1&pool=quality&secret=YOUR_SECRET",
+  "ip_change_mode": "per_submit",
+  "ip_change_batch": 5,
+  "ai_service": "质谱清言",
+  "ai_fill_enabled": false,
+  "openai_api_key": "",
+  "qingyan_api_key": "",
+  "ai_prompt_template": "请用简洁、自然的中文回答：{question}",
+  "single_prob": {
+    "1": -1,
+    "2": [
+      0.3,
+      0.7
+    ],
+    "3": [
+      0.2,
+      0.2,
+      0.6
+    ]
+  },
+  "other_texts": {
+    "4": [
+      "自定义内容A",
+      "自定义内容B",
+      "自定义内容C"
+    ],
+    "5": [
+      "随便写点",
+      "哈哈哈",
+      "其他情况"
+    ]
+  },
+  "multiple_prob": {
+    "4": {
+      "prob": [
+        0.4,
+        0.3,
+        0.3
+      ],
+      "min_selection": 1,
+      "max_selection": 2
+    },
+    "5": {
+      "prob": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "min_selection": 2,
+      "max_selection": 3
+    }
+  },
+  "matrix_prob": {
+    "6": [
+      0.2,
+      0.3,
+      0.5
+    ],
+    "7": -1
+  },
+  "scale_prob": {
+    "8": [
+      0.1,
+      0.2,
+      0.4,
+      0.2,
+      0.1
+    ],
+    "9": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ]
+  },
+  "texts": {
+    "10": [
+      "示例答案1",
+      "示例答案2",
+      "示例答案3"
+    ],
+    "11": [
+      "回答A",
+      "回答B",
+      "回答C"
+    ]
+  },
+  "multiple_texts": {
+    "12": [
+      [
+        "选项1",
+        "选项2",
+        "选项3"
+      ],
+      [
+        "选项A",
+        "选项B",
+        "选项C"
+      ]
+    ]
+  },
+  "reorder_prob": {
+    "13": [
+      0.4,
+      0.3,
+      0.2,
+      0.1
+    ],
+    "14": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ]
+  },
+  "droplist_prob": {
+    "15": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "16": [
+      0.5,
+      0.5
+    ]
+  },
+  "question_texts": {
+    "1": "您的性别",
+    "2": "您的年级",
+    "3": "您每月的消费项目",
+    "4": "您喜欢的运动",
+    "5": "您的兴趣爱好",
+    "6": "您对学校的满意度",
+    "7": "您的专业课程评价",
+    "8": "您的生活满意度",
+    "9": "您的学习压力程度",
+    "10": "您的姓名",
+    "11": "您的联系方式",
+    "12": "您的家庭信息",
+    "13": "您喜欢的食物排序",
+    "14": "您喜欢的电影类型排序",
+    "15": "您的出生地",
+    "16": "您的职业"
+  },
+  "option_texts": {
+    "1": [
+      "男",
+      "女"
+    ],
+    "2": [
+      "大一",
+      "大二",
+      "大三",
+      "大四"
+    ],
+    "3": [
+      "伙食",
+      "购置衣物",
+      "交通通讯",
+      "生活用品",
+      "日常交际",
+      "学习用品",
+      "娱乐旅游",
+      "其他"
+    ],
+    "4": [
+      "篮球",
+      "足球",
+      "游泳",
+      "跑步",
+      "羽毛球"
+    ],
+    "5": [
+      "阅读",
+      "音乐",
+      "游戏",
+      "旅行",
+      "摄影"
+    ],
+    "6": [
+      "非常满意",
+      "满意",
+      "一般",
+      "不满意",
+      "非常不满意"
+    ],
+    "7": [
+      "非常满意",
+      "满意",
+      "一般",
+      "不满意",
+      "非常不满意"
+    ],
+    "8": [
+      "非常满意",
+      "满意",
+      "一般",
+      "不满意",
+      "非常不满意"
+    ],
+    "9": [
+      "非常大",
+      "较大",
+      "一般",
+      "较小",
+      "没有压力"
+    ],
+    "13": [
+      "中餐",
+      "西餐",
+      "日料",
+      "快餐"
+    ],
+    "14": [
+      "科幻",
+      "动作",
+      "喜剧",
+      "爱情"
+    ],
+    "15": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "16": [
+      "学生",
+      "上班族",
+      "自由职业",
+      "退休"
+    ]
+  },
+  "page_paths": [],
+  "matrix_config": {
+    "fill_strategy": "random",
+    "bias_direction": "center",
+    "bias_strength": 0.3,
+    "pattern_type": "normal",
+    "row_strategies": {},
+    "column_weights": {},
+    "scale_config": {
+      "likert_bias": "center",
+      "numeric_range": [
+        1,
+        5
+      ],
+      "semantic_pairs": []
+    }
+  },
+  "text_config": {
+    "templates": [
+      "这是一个很好的问题，我认为...",
+      "根据我的经验，我觉得...",
+      "从专业角度来看，这个问题...",
+      "个人认为这个情况...",
+      "基于实际情况分析..."
+    ],
+    "min_length": 10,
+    "max_length": 200,
+    "use_ai": false,
+    "ai_prompts": []
+  },
+  "ai_config": {
+    "enabled": false,
+    "api_key": "",
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.7,
+    "max_tokens": 150,
+    "prompt_templates": {
+      "text": "请根据以下问题生成一个自然、真实的回答：{question}",
+      "matrix": "请为以下矩阵题选择一个合适的评分：{question}，选项：{options}",
+      "multiple": "请为以下多选题选择合适的选项：{question}，选项：{options}"
+    }
+  },
+  "validation_config": {
+    "check_required": true,
+    "validate_answers": true,
+    "skip_invalid": false,
+    "retry_failed": 3
+  },
+  "logging_config": {
+    "level": "INFO",
+    "file_enabled": true,
+    "console_enabled": true,
+    "max_file_size": 10485760,
+    "backup_count": 5
+  },
+  "ui_config": {
+    "theme": "default",
+    "font_family": "Microsoft YaHei",
+    "font_size": 10,
+    "window_size": "1200x800",
+    "auto_save": true,
+    "auto_save_interval": 300
+  },
+  "paths": [],
+  "path_priority": [],
+  "max_retries": 2,
+  "question_types": {
+    "1": "3",
+    "2": "3",
+    "3": "3",
+    "4": "4",
+    "5": "4",
+    "6": "6",
+    "7": "6",
+    "8": "5",
+    "9": "5",
+    "15": "7",
+    "16": "7",
+    "10": "1",
+    "11": "1",
+    "12": "2",
+    "13": "11",
+    "14": "11"
+  }
+}

@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE
+.idea/
+.vscode/*.log
+
+# Runtime artifacts
+logs/*.log
+logs/*.txt
+sample_answers.json
+
+# OS
+.DS_Store
+Thumbs.db

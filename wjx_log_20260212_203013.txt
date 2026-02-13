@@ -1,0 +1,37 @@
+============================================================
+智能表单自动填充系统 - 运行日志
+导出时间: 2026-02-12 20:30:18
+日志条数: 24
+============================================================
+
+2026-02-12 20:29:19,687 - INFO - 开始解析问卷...
+2026-02-12 20:29:19,688 - INFO - 清空旧的问卷解析数据...
+2026-02-12 20:29:19,688 - INFO - 旧数据清空完成
+2026-02-12 20:29:19,688 - INFO - 问卷链接: https://www.wjx.cn/vm/OaRP2BF.aspx
+2026-02-12 20:29:19,688 - INFO - 启动解析线程...
+2026-02-12 20:29:19,688 - INFO - 解析线程开始执行...
+2026-02-12 20:29:20,114 - INFO - 开始创建Chrome浏览器实例...
+2026-02-12 20:29:20,114 - INFO - ChromeDriver路径: E:\wjx-master\chromedriver.exe
+2026-02-12 20:29:20,116 - INFO - 配置Chrome选项...
+2026-02-12 20:29:20,117 - INFO - 创建Chrome浏览器实例...
+2026-02-12 20:29:20,168 - INFO - 使用webdriver-manager自动管理ChromeDriver...
+2026-02-12 20:29:20,168 - INFO - ====== WebDriver manager ======
+2026-02-12 20:29:24,960 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 20:29:26,762 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 20:29:28,635 - INFO - There is no [win64] chromedriver "144.0.7559.133" for browser google-chrome "144.0.7559" in cache
+2026-02-12 20:29:28,635 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 20:29:34,043 - INFO - WebDriver version 144.0.7559.133 selected
+2026-02-12 20:29:34,048 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+2026-02-12 20:29:34,048 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/144.0.7559.133/win32/chromedriver-win32.zip
+2026-02-12 20:29:35,759 - INFO - Driver downloading response is 200
+2026-02-12 20:29:44,279 - INFO - Get LATEST chromedriver version for google-chrome
+2026-02-12 20:29:46,393 - INFO - Driver has been saved in cache [C:\Users\20178\.wdm\drivers\chromedriver\win64\144.0.7559.133]
+2026-02-12 20:29:50,134 - ERROR - 创建Chrome浏览器实例失败: Chrome浏览器启动超时，请检查ChromeDriver和Chrome浏览器
+2026-02-12 20:29:57,669 - INFO - 使用webdriver-manager创建浏览器成功
+
+
+============================================================
+日志统计信息:
+INFO: 23 条
+ERROR: 1 条
+============================================================
