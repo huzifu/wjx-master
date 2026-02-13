@@ -4,4 +4,4 @@ try:
     from ttkbootstrap.scrolled import ScrolledFrame
     print("Found in ttkbootstrap.scrolled")
 except ImportError:
-    print("Not found in scrolled")
+    print("Not fou scrolled")
